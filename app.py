@@ -41,6 +41,9 @@ def hello():
     Ejemplo:
     /hello?name=Kali
 
+    Prueba de trazabilidad 3.4.2:
+    Documentacion actualizada desde Kali y Jenkins.
+
     @return Respuesta JSON con el mensaje de saludo.
     """
     nombre = request.args.get("name", "mundo")
